@@ -1327,7 +1327,7 @@ export default function DemoPage() {
                 <ul className="mb-auto list-none">
                   <li className="list-none flex items-center">
                     <p className="text-[12px] font-extrabold text-[#1E293B]">
-                      Liftoff
+                      PeoplePlus
                     </p>
                   </li>
                   <li className="mt-4 list-none flex items-center rounded-[9px] text-gray-900 py-[2px]">
@@ -1538,7 +1538,7 @@ export default function DemoPage() {
                       R
                     </div>
                     <p className="ml-[4px] mr-[6px] flex-shrink-0">
-                      Richard Monroe
+                      Hamad Pervaiz
                     </p>
                     <div className="ml-auto">
                       <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24">
