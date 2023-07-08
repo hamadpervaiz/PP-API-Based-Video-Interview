@@ -2,26 +2,26 @@ import "../styles/globals.css";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Liftoff - AI-Powered Mock Interviews",
+  title: "PeoplePlus - AI-Powered Mock Interviews",
   openGraph: {
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "PeoplePlus - AI-Powered Mock Interviews",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
+      "PeoplePlus is an AI-powered mock interview platform that helps you practice for your next job interview.",
     images: [
       {
-        url: "https://demo.useliftoff.com/opengraph-image",
+        url: "https://interview.peopleplus.io/opengraph-image",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Liftoff - AI-Powered Mock Interviews",
+    title: "PeoplePlus - AI-Powered Mock Interviews",
     description:
-      "Liftoff is an AI-powered mock interview platform that helps you practice for your next job interview.",
-    images: ["https://demo.useliftoff.com/opengraph-image"],
+      "PeoplePlus is an AI-powered mock interview platform that helps you practice for your next job interview.",
+    images: ["https://interview.peopleplus.io/opengraph-image"],
     creator: "@tmeyer_me",
   },
-  metadataBase: new URL("https://demo.useliftoff.com"),
+  metadataBase: new URL("https://interview.peopleplus.io"),
   themeColor: "#FFF",
 };
 
