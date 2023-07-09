@@ -1,6 +1,5 @@
 <a href="https://interview.peopleplus.io">
-  <img alt="PeoplePlus – AI-Powered Mock Interviews" src="https://demo.useliftoff.com/opengraph-image">
-  <h1 align="center">PeoplePlus Interviews</h1>
+<h1 align="center">PeoplePlus Mock AI Interviewer</h1>
 </a>
 
 <p align="center">
@@ -9,27 +8,7 @@
 
 <br/>
 
-## Introduction
 
-Liftoff is an interview preparation tool that provides AI feedback on your mock interviews.
-
-## One-click Deploy
-
-You can deploy this template to Vercel with the button below:
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/tameyer41/clone?demo-title=Liftoff%20%E2%80%93%C2%A0AI%20Mock%20Interview%20Simulator&demo-description=Liftoff%20is%20an%20interview%20preparation%20tool%20that%20provides%20AI%20feedback%20on%20your%20mock%20interviews%2C%20built%20with%20OpenAI%20Whisper%20and%20GPT.&demo-url=https%3A%2F%2Fdemo.useliftoff.com%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F5TbjLXmeKdo2rURpnjIEqn%2Fc7c8fc350183e8cd3c819d172c0005ac%2F68747470733a2f2f696b2e696d6167656b69742e696f2f396b6d3732617371752f436c65616e53686f745f323032332d30352d33315f61745f31322e34332e35&project-name=Liftoff%20%E2%80%93%C2%A0AI%20Mock%20Interview%20Simulator&repository-name=liftoff&repository-url=https%3A%2F%2Fgithub.com%2FTameyer41%2Fliftoff&from=templates&skippable-integrations=1&env=OPENAI_API_KEY&envDescription=Get%20your%20OpenAI%20API%20key%20here%3A&envLink=https%3A%2F%2Fplatform.openai.com%2Faccount%2Fapi-keys)
-
-You can also clone & create this repo locally with the following command:
-
-```bash
-npx create-next-app liftoff --example "https://github.com/Tameyer41/liftoff"
-```
-
-## Tech Stack + Features
-
-![Landing Page](https://ik.imagekit.io/9km72asqu/CleanShot_2023-05-31_at_12.43.54_svKkqF7dA.png?updatedAt=1685551454273)
-
-![Interview Selection](https://ik.imagekit.io/9km72asqu/CleanShot_2023-05-31_at_13.35.55_xohCRNMlJ.png?updatedAt=1685554576155)
 
 ### Frameworks
 
@@ -61,10 +40,6 @@ npx create-next-app liftoff --example "https://github.com/Tameyer41/liftoff"
 
 ## How it all works
 
-Liftoff uses FFmpeg to transcode the raw video into MP3. Chrome, Safari, and Firefox all record with different codecs, and FFmpeg is great for standardizing them.
+PeoplePlus AI Mock Interviewer uses FFmpeg to transcode the raw video into MP3. Chrome, Safari, and Firefox all record with different codecs, and FFmpeg is great for standardizing them.
 
 We then send the audio directly to be transcribed by OpenAI's Whisper endpoint, and then stream feedback from the edge using OpenAI's gpt-3.5-turbo.
-
-## Author
-
-- Tyler Meyer ([@tmeyer_me](https://twitter.com/tmeyer_me))
